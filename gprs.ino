@@ -57,7 +57,7 @@ void setup() {
 
 void loop() {
   // Проверяем, если на 7 пине GND и действие ещё не выполнено
-  if (lidar.getData(dist) == LOW && !actionExecuted) {
+  if (lidar.getData(dist) <= 15) {
     // Устанавливаем высокий уровень (5V) на пине 8 навсегда
     digitalWrite(8, HIGH);
     Serial.print("Start to sms");
