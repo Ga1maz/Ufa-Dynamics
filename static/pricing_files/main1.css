@@ -1,0 +1,293 @@
+@font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 100 900;
+    src: url(/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 100 900;
+    src: url(/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 100 900;
+    src: url(/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);
+    unicode-range: U+1F00-1FFF;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 100 900;
+    src: url(/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 100 900;
+    src: url(/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);
+    unicode-range: U+0370-03FF;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 100 900;
+    src: url(/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 100 900;
+    src: url(/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 100 900;
+    src: url(/cf-fonts/v/montserrat/5.0.16/cyrillic-ext/wght/normal.woff2);
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 100 900;
+    src: url(/cf-fonts/v/montserrat/5.0.16/latin-ext/wght/normal.woff2);
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 100 900;
+    src: url(/cf-fonts/v/montserrat/5.0.16/vietnamese/wght/normal.woff2);
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 100 900;
+    src: url(/cf-fonts/v/montserrat/5.0.16/cyrillic/wght/normal.woff2);
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 100 900;
+    src: url(/cf-fonts/v/montserrat/5.0.16/latin/wght/normal.woff2);
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 100 900;
+    src: url(/cf-fonts/v/montserrat/5.0.16/cyrillic/wght/italic.woff2);
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 100 900;
+    src: url(/cf-fonts/v/montserrat/5.0.16/latin/wght/italic.woff2);
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 100 900;
+    src: url(/cf-fonts/v/montserrat/5.0.16/latin-ext/wght/italic.woff2);
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 100 900;
+    src: url(/cf-fonts/v/montserrat/5.0.16/vietnamese/wght/italic.woff2);
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 100 900;
+    src: url(/cf-fonts/v/montserrat/5.0.16/cyrillic-ext/wght/italic.woff2);
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    font-display: swap;
+  }
+
+  * {
+    font-family: Montserrat, sans-serif;
+    scroll-behavior: smooth
+  }
+
+  ::-webkit-scrollbar {
+    width: 0
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: transparent
+  }
+
+
+  .papurrin {
+    color: #ffffffd8;
+    font-size: 100px;
+    position: relative
+  }
+
+  @keyframes a {
+
+    0%,
+    16.667%,
+    to {
+      opacity: 1
+    }
+
+    33.333%,
+    83.333% {
+      opacity: 0
+    }
+  }
+
+  @keyframes b {
+
+    0%,
+    16.667%,
+    to {
+      color: #fff;
+      opacity: 1
+    }
+
+    33.333%,
+    83.333% {
+      color: #000;
+      opacity: 1
+    }
+  }
+
+  @keyframes a2 {
+
+    0%,
+    to {
+      opacity: 0
+    }
+
+    33.333%,
+    50% {
+      opacity: 1
+    }
+
+    16.667%,
+    66.667% {
+      opacity: 0
+    }
+  }
+
+  @keyframes b2 {
+
+    0%,
+    to {
+      color: #000;
+      opacity: 1
+    }
+
+    33.333%,
+    50% {
+      color: #fff;
+      opacity: 1
+    }
+
+    16.667%,
+    66.667% {
+      color: #000;
+      opacity: 1
+    }
+  }
+
+  @keyframes a3 {
+
+    0%,
+    50%,
+    to {
+      opacity: 0
+    }
+
+    66.667%,
+    83.333% {
+      opacity: 1
+    }
+  }
+
+  @keyframes b3 {
+
+    0%,
+    50%,
+    to {
+      color: #000;
+      opacity: 1
+    }
+
+    66.667%,
+    83.333% {
+      color: #fff;
+      opacity: 1
+    }
+  }
+
+  .papurrin:before {
+    animation-name: var(--animation, a);
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    background: linear-gradient(90deg, var(--start-color), var(--end-color));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: inherit;
+    position: absolute;
+    content: var(--content);
+    opacity: 1
+  }
+
+  .bgpotente[data-astro-cid-j7pv25f6] {
+    background: radial-gradient(85.77% 49.97% at 51% 5.12%, #949bff1c 0, #dee2ff14 45.83%, #f1f2ff05), #00000070
+  }
+
+  .inter[data-astro-cid-j7pv25f6] {
+    font-family: Inter, sans-serif
+  }
