@@ -16,7 +16,7 @@ const char* ssid = "dom100a";
 const char* password = "almaz@7777";
 const char* mqtt_server = "mqtt.cloa.space";
 const char* mqtt_user = "ga1maz";
-const char* mqtt_password = "almazg1234";
+const char* mqtt_password = "almazfg1234";
 
 // FastLED configuration
 #define LED_PIN 18       // Pin connected to the data line of the LED strip
