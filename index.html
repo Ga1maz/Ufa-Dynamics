@@ -273,17 +273,14 @@
               class="flex w-full items-center justify-between gap-4 p-4 text-left underline-offset-2 focus-visible:underline focus-visible:outline-none"
               aria-controls="accordionItemOne" @click="isExpanded = ! isExpanded"
               :class="isExpanded ? &#39;&#39;  : &#39; &#39;"
-              :aria-expanded="isExpanded ? &#39;true&#39; : &#39;false&#39;" aria-expanded="false"> Можно ли купить порт
-              25565 или 19132? <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2"
+              :aria-expanded="isExpanded ? &#39;true&#39; : &#39;false&#39;" aria-expanded="false"> С какого растояния определяется поезд ? <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2"
                 stroke="currentColor" class="size-5 shrink-0 transition stroke-neutral-300" aria-hidden="true"
                 :class="isExpanded  ?  &#39;rotate-180&#39;  :  &#39;&#39;">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
               </svg> </button>
             <div x-show="isExpanded" id="accordionItemOne" role="region" aria-labelledby="controlsAccordionItemOne"
               x-collapse="" style="height: 0px; overflow: hidden; display: none;" hidden="">
-              <div class="px-4 pb-4 text-sm text-neutral-400"> Мы не открываем определённые порты по запросу клиента, в
-                т.ч. 25565 и 19132. Если нужно настроить подключение к серверу без порта, то можно использовать домен с
-                SRV записью или наш домен пример(myserver.cloa.su) в случае с Minecraft Java Edition. </div>
+              <div class="px-4 pb-4 text-sm text-neutral-400"> Мы используем систему GPS, по этому поезд определяется с любого растояния. </div>
             </div>
           </div>
           <div x-data="{ isExpanded: false }" class="mx-auto py-6 container bg-transparent text-white" style="border-bottom: 1px solid;
@@ -293,7 +290,7 @@
               aria-controls="accordionItemOne" @click="isExpanded = ! isExpanded"
               :class="isExpanded ? &#39;&#39;  : &#39; &#39;"
               :aria-expanded="isExpanded ? &#39;true&#39; : &#39;false&#39;" aria-expanded="false">
-              Можно ли установить BungeeCord или другие прокси ядра? <svg xmlns="http://www.w3.org/2000/svg"
+              Система работает на аккумуляторе? <svg xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"
                 class="size-5 shrink-0 transition stroke-neutral-300" aria-hidden="true"
                 :class="isExpanded  ?  &#39;rotate-180&#39;  :  &#39;&#39;">
@@ -301,7 +298,9 @@
               </svg> </button>
             <div x-show="isExpanded" id="accordionItemOne" role="region" aria-labelledby="controlsAccordionItemOne"
               x-collapse="" style="height: 0px; overflow: hidden; display: none;" hidden="">
-              <div class="px-4 pb-4 text-sm text-neutral-400"> Вы можете устанавливать любое ядро на сервер. </div>
+              <div class="px-4 pb-4 text-sm text-neutral-400"> Нет, мы используем альтеративную источник питяния такие как: <br>
+                1.Солнечные станции <br>
+                2.Ветряной генератор </div>
             </div>
           </div>
           <div x-data="{ isExpanded: false }" class="mx-auto py-6 container bg-transparent text-white" style="border-bottom: 1px solid;
@@ -310,16 +309,14 @@
               class="flex w-full items-center justify-between gap-4 p-4 text-left underline-offset-2 focus-visible:underline focus-visible:outline-none"
               aria-controls="accordionItemOne" @click="isExpanded = ! isExpanded"
               :class="isExpanded ? &#39;&#39;  : &#39; &#39;"
-              :aria-expanded="isExpanded ? &#39;true&#39; : &#39;false&#39;" aria-expanded="false"> Доступен ли на ваших
-              серверах TCP/UDP? <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2"
+              :aria-expanded="isExpanded ? &#39;true&#39; : &#39;false&#39;" aria-expanded="false"> На сколько система рабочая? <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2"
                 stroke="currentColor" class="size-5 shrink-0 transition stroke-neutral-300" aria-hidden="true"
                 :class="isExpanded  ?  &#39;rotate-180&#39;  :  &#39;&#39;">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
               </svg> </button>
             <div x-show="isExpanded" id="accordionItemOne" role="region" aria-labelledby="controlsAccordionItemOne"
               x-collapse="" style="display: none; height: 0px; overflow: hidden;" hidden="">
-              <div class="px-4 max-w-3xl pb-4 text-sm text-neutral-400"> На всех портах, которые открываются для сервера
-                клиента, доступен как TCP, так и UDP.</div>
+              <div class="px-4 max-w-3xl pb-4 text-sm text-neutral-400"> Она надежная, из 100 тестов она прошла 95.</div>
             </div>
           </div>
 
@@ -329,18 +326,14 @@
               class="flex w-full items-center justify-between gap-4 p-4 text-left underline-offset-2 focus-visible:underline focus-visible:outline-none"
               aria-controls="accordionItemOne" @click="isExpanded = ! isExpanded"
               :class="isExpanded ? &#39;&#39;  : &#39; &#39;"
-              :aria-expanded="isExpanded ? &#39;true&#39; : &#39;false&#39;" aria-expanded="false"> Есть ли у вас
-              PhpMyAdmin ? <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2"
+              :aria-expanded="isExpanded ? &#39;true&#39; : &#39;false&#39;" aria-expanded="false"> С какого растояния система может передавать сигнал? <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2"
                 stroke="currentColor" class="size-5 shrink-0 transition stroke-neutral-300" aria-hidden="true"
                 :class="isExpanded  ?  &#39;rotate-180&#39;  :  &#39;&#39;">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
               </svg> </button>
             <div x-show="isExpanded" id="accordionItemOne" role="region" aria-labelledby="controlsAccordionItemOne"
               x-collapse="" style="display: none; height: 0px; overflow: hidden;" hidden="">
-              <div class="px-4 max-w-3xl pb-4 text-sm text-neutral-400"> Есть по ссыке <a
-                  href="https://p.cloa.su/phpmyadmin" class="text-blue-500">p.cloa.su/phpmyadmin</a> Логин - имя
-                пользователя ДБ которую вы создали в панели управления сервера. Пароль - пароль ДБ которую вы создали в
-                панели управления сервера.</div>
+              <div class="px-4 max-w-3xl pb-4 text-sm text-neutral-400"> Наша система работает в зоне мобильной сети и спутниковой связи.</div>
             </div>
           </div>
           <br><br><br><br><br>
