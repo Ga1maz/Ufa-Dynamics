@@ -1,6 +1,6 @@
 #include <GPRS_Shield_Arduino.h>
 
-#define PHONE_NUMBER  "+79631413596"
+#define PHONE_NUMBER  "+7************"
 #define MESSAGE  "Warning train!"
 #define TRIGGER_PIN 7 
 #define CONFIRMATION_DELAY 500 
