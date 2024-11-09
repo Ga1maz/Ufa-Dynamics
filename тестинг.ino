@@ -12,11 +12,11 @@
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 // Wi-Fi and MQTT server credentials
-const char* ssid = "dom100a";
-const char* password = "almaz@7777";
+const char* ssid = "******";
+const char* password = "********";
 const char* mqtt_server = "mqtt.cloa.space";
-const char* mqtt_user = "ga1maz";
-const char* mqtt_password = "almazg1234";
+const char* mqtt_user = "******";
+const char* mqtt_password = "*********";
 
 // FastLED configuration
 #define LED_PIN 18       // Pin connected to the data line of the LED strip
