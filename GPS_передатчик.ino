@@ -3,11 +3,11 @@
 #include <SoftwareSerial.h>
 #include <TinyGPS++.h>
 
-const char* ssid = "dom100a";
-const char* password = "almaz@7777";
+const char* ssid = "***********";
+const char* password = "*****";
 const char* mqtt_server = "mqtt.cloa.space";
-const char* mqtt_user = "ga1maz";
-const char* mqtt_password = "almazg1234";
+const char* mqtt_user = "*****";
+const char* mqtt_password = "**********";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
