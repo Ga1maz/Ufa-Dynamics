@@ -1,7 +1,7 @@
 #include <GPRS_Shield_Arduino.h>
 
 // номер на который будем звонить
-#define PHONE_NUMBER  "+79177537900"
+#define PHONE_NUMBER  "+7***********"
 #define TEXT "Train!"
 
 // Библиотека для работы с дальномерами
