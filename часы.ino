@@ -6,14 +6,14 @@
 #include <ESP8266HTTPClient.h>  // Добавляем библиотеку для HTTP-запросов
 
 // Настройки Wi-Fi
-const char* ssid = "ffff";
-const char* password = "123456780";
+const char* ssid = "****";
+const char* password = "*********";
 
 // Настройки MQTT
 const char* mqtt_server = "mqtt.cloa.space";
 const int mqtt_port = 1883;
-const char* mqtt_user = "ga1maz";
-const char* mqtt_pass = "almazg1234";
+const char* mqtt_user = "******";
+const char* mqtt_pass = "********";
 const char* mqtt_topic = "home/temperature";  // Тема для получения данных
 
 WiFiClient espClient;
@@ -28,7 +28,7 @@ PubSubClient client(espClient);
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 // HTTP URL для запроса данных
-const char* api_url = "https://ufa-dynamics.cloa.space/";  // Укажите URL сайта или API, откуда нужно получать данные
+const char* api_url = "https://ufa-d.cloa.space/";  // Укажите URL сайта или API, откуда нужно получать данные
 
 void setup() {
   // Инициализация серийного порта
