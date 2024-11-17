@@ -78,6 +78,12 @@ void loop() {
   display.println("Poezd_GPS:");
   display.setCursor(0, 10);
   display.println(gpsCoordinates);
+  display.setCursor(0, 25);
+  display.println("Vektor_GPS:");
+  display.setCursor(0, 35);
+  display.println(gpsCoordinates);
+  display.setCursor(0, 50);
+  display.println("STATUS: " + gpsCoordinates);
   display.display();
   delay(500);
 }
