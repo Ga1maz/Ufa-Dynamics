@@ -19,6 +19,11 @@ const char* mqtt_topic = "watch/1";  // Тема для получения да�
 WiFiClient espClient;
 PubSubClient client(espClient);
 
+////////////////////////////////////////
+float x2 = 54.748327;
+float y2 = 55.948332;
+////////////////////////////////////////
+
 // Настройки OLED экрана 
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
@@ -135,10 +140,10 @@ void mqttCallback(char* topic, byte* payload, unsigned int length) {
     Serial.println(messageArray[i]);
   }
 
-  double x1 = atof(messageArray[0].c_str());
-  double y1 = atof(messageArray[1].c_str());
-  double x2 = atof(messageArray[2].c_str());
-  double y2 = atof(messageArray[3].c_str()); // Создаём переменные параллельно переводя с стр в дабл
+  float x1 = atof(messageArray[0].c_str());
+  float y1 = atof(messageArray[1].c_str());
+ // double x2 = atof(messageArray[2].c_str());
+//double y2 = atof(messageArray[3].c_str()); // Создаём переменные параллельно переводя с стр в дабл
 
   float res1 = x2 - x1;
   float res2 = y2 - y1;
@@ -151,21 +156,21 @@ void mqttCallback(char* topic, byte* payload, unsigned int length) {
 
 
   display.clearDisplay();
-  display.setTextSize(1);
+  display.setTextSize(2);
   display.setTextColor(SSD1306_WHITE);
   display.setCursor(0, 0);
 
   if (dlinna > 2) {
-    display.println("Trane is: Daleko    ");
-    Serial.println("Trane is: Daleko");
+    display.print("The train far away  ");
+    Serial.println("The train far away");
     display.print("Do Poezda - ");
     display.print(dlinna);
     display.print(" KM");
 
   } else {
-    display.println("Trane is: Blizko");
+    display.println("The train is close");
     digitalWrite(7, HIGH);
-    Serial.println("Trane is: Blizko");
+    Serial.println("The train is close");
   }
 
   // Обновляем дисплей
