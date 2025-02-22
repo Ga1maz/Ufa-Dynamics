@@ -6,15 +6,15 @@
 #include <cmath>
 
 // Настройки Wi-Fi
-const char* ssid = "ffff";
-const char* password = "123456780";
+const char* ssid = "*****";
+const char* password = "********";
 
 // Настройки MQTT
-const char* mqtt_server = "mqtt.cloa.su";
+const char* mqtt_server = "*****";
 const int mqtt_port = 1883;
-const char* mqtt_user = "ga1maz";
-const char* mqtt_pass = "almazg1234";
-const char* mqtt_topic = "watch/1";  // Тема для получения данных
+const char* mqtt_user = "*******";
+const char* mqtt_pass = "********";
+const char* mqtt_topic = "********";  // Тема для получения данных
 
 WiFiClient espClient;
 PubSubClient client(espClient);
